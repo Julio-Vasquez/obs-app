@@ -6,8 +6,9 @@ const Home = () => {
 
   return (
     <div>
-      <h1>hey hdp</h1>
+      <h1>Welcome to my App</h1>
       <Modal
+        title="Token Expired"
         open={expired}
         onOk={closeModal}
         onCancel={closeModal}
